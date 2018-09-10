@@ -1,0 +1,70 @@
+/* Main CSS file */
+
+/* Add styles to your lines so you can see them */
+line {
+  stroke:#d3d3d3;
+  stroke-width:1;
+}
+
+/* Manipulate the space between your h1 and p elements as you see fit */
+h1 {
+  margin-bottom: 0px;
+  text-align: center;
+  font: Georgia, serif;
+}
+
+/*
+p {
+	font-family: Monaco, Georgia, "Times New Roman", Times, serif;
+	margin-top:0px;
+	font-size: 0.75em;
+	opacity: .5;
+	text-align: left;
+	margin: 0,0,0,0;
+}
+*/
+
+p {
+	margin: 0,0,0,0;
+	margin-top:5px;
+  margin-bottom: 5px;
+  font: Georgia, serif;
+}
+
+.important {
+	font-size: 1.05em;
+	font-weight: bold;
+}
+
+.small {
+	font-size: 0.75em;
+	font-weight: lighter;
+}
+
+.little {
+	font-style: italic;
+	font-size: 0.65em;
+}
+
+.tiny {
+	font-size: 0.5em;
+}
+
+.date-style {
+	text-align:center;
+	font-size: 0.75em;
+}
+
+/* Change the property of circle and rect elements that changes their color */
+/*
+circle, rect {
+  fill:lightblue;
+}
+*/
+
+/* Set with width of the div so it is centered */
+.container {
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
