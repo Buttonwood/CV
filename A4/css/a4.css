@@ -1,0 +1,48 @@
+/* A4 CSS file */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+*   {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: 0 auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    /*
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    */
+}
+
+.subpage    {
+    height: 29.7cm;
+}
+
+@page {
+    size: A4 portrait;
+    margin: 0,0,0,0;
+    float:left;
+}
+
+@media print {
+    .page {
+        margin: 0,0,0,0;
+        border: initial;
+        border-radius: initial;
+        width: 21cm;
+        min-height: 29.7cm;
+        box-shadow: initial;
+        background: initial;
+        page-break-inside: avoid;
+        page-break-before: avoid;
+        page-break-after: avoid; /*always;*/
+    }
+}
