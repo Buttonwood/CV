@@ -352,9 +352,6 @@
     width:570px; /* 570px*/
     float:left;
     padding:0px;
-    /*
-    margin-left: 50px; 
-    */
     font-size: 1em;
     font-weight: normal;
     font-family: 'Times New Roman';
@@ -378,7 +375,7 @@
     border: 1px red solid;
     */
     height:70px; /* 600px */
-    width:570px; /* */
+    width:560px; /* */
     float:left;
     padding:0px;
     font-size: 1em;
